@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5.65rem;
+    margin: 50px auto 2rem;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3, a {
+    color: #11999E;
+}
+
+hr {
+    border: none;
+    border-top:10px dotted #EAF6F6;
+    height: 1px;
+    width: 10%;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 50px;
+}
+
+.top-cloud {
+    position: relative;
+    left: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.middle-container {
+    padding-top: 50px;
+}
+
+.profile p {
+    color: #40514E;
+    margin: 0 auto 100px;
+    width: 50%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row .computer {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row .chillies {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.computer-text {
+    clear: left;
+}
+
+.chillies-text {
+    clear: right;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 120px;
+    padding-top: 50px;
+}
+
+.bottom-container p {
+    color: #EAF6F6;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.btn {
+    background-color: #11999E;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 50px;
+    display: inline-block;
+}
